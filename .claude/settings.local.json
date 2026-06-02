@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(deno --version)",
+      "Bash(deno check *)",
+      "Bash(echo \"=== EXIT: $? ===\")",
+      "Bash(npx supabase *)",
+      "Bash(curl -s -X POST http://127.0.0.1:54321/auth/v1/signup -H 'apikey: __TRACKED_VAR__' -H 'Content-Type: application/json' -d '{\"email\":\"test@example.com\",\"password\":\"test123456\"}')"
+    ]
+  }
+}
